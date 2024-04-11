@@ -1,34 +1,41 @@
 body {
-    background-color: red;
+    background-color: rgb(252, 84, 0);
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 #container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 #header {
-    background-color: yellow;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    background-color: purple;
+    font-family: "Honk", system-ui, serif;
     padding: 10px;
+    margin: 0px 5px;
     text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
 }
-.Blue {
-    color: blue;
+.Black {
+    color: black
    
    }
    
    .Red {
-       color: red;
+       color: orangered;
    }
 #nav {
-    float: left;
+    margin: 5px;
+    float: center;
     width: 20%;
-    background-color: #f2f2f2;
+    font-family: "Bungee Shade", sans-serif;
+    background-color: #f10fb1;
     padding: 10px;
+    border: 2px solid black;
 }
-#nav a {
-    text-decoration: none;
-    color: green;
+#nav a:hover {
+    color: orange;
+    font-size: 18px;
 }
 #content {
     float: left;
@@ -36,15 +43,23 @@ body {
     padding: 10px;
 }
 #footer {
+    width: 100%;
     background-color: gray;
-   
     text-align: center;
     clear: both;
     padding: 10px;
 }
+h2 {
+    font-family: "Honk", system-ui, serif;
+    font-size: 40px
+}
 #content p {
-    font-family: Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
  table, td {
     border: 3px solid black;
+}
+span {
+    font-family: "Bungee Shade", sans-serif;
+    color: purple;
 }
