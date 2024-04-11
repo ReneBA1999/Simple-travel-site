@@ -42,3 +42,9 @@ body {
     clear: both;
     padding: 10px;
 }
+#content p {
+    font-family: Verdana, sans-serif;
+}
+ table, td {
+    border: 3px solid black;
+}
