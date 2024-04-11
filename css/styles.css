@@ -1,3 +1,44 @@
-main {
-    display: inline
+body {
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    background-color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    text-align: center;
+}
+.Blue {
+    color: blue;
+   
+   }
+   
+   .Red {
+       color: red;
+   }
+#nav {
+    float: left;
+    width: 20%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+#nav a {
+    text-decoration: none;
+    color: green;
+}
+#content {
+    float: left;
+    width: 80%;
+    padding: 10px;
+}
+#footer {
+    background-color: gray;
+   
+    text-align: center;
+    clear: both;
+    padding: 10px;
 }
