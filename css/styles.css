@@ -10,6 +10,8 @@ body {
     display: block;
     background-color: purple;
     font-family: "Honk", system-ui, serif;
+    text-decoration: underline;
+    color: turquoise;
     padding: 10px;
     margin: 0px 5px;
     text-align: center;
@@ -19,7 +21,7 @@ body {
 .Black {
     color: black
    }
-   .Red {
+   .orangered {
        color: orangered;
    }
 #nav {
@@ -27,7 +29,7 @@ body {
     float: center;
     width: 30%;
     font-family: "Bungee Shade", sans-serif;
-    background-color: #f10fb1;
+    background-color: aquamarine;
     padding: 0px;
     border: 2px solid black;
 }
@@ -56,6 +58,7 @@ h2 {
     font-size: 40px
 }
 #content {
+
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -66,9 +69,31 @@ h2 {
 
  table, td {
     border: 3px solid black;
+    background-color: aquamarine;
 
+}
+table td a {
+    font-family: "Honk", system-ui, serif;
+}
+table td a:hover {
+   font-size: 25px;
 }
 span {
     font-family: "Bungee Shade", sans-serif;
     color: purple;
+}
+#OtherThings {
+    float: left;
+    width: 250px;
+    color: turquoise;
+    text-decoration: underline;
+}
+#OtherThings ul{
+    font-family: "Bungee Shade", sans-serif;
+    background-color: aquamarine;
+    border: 5px dotted purple
+}
+#OtherThings a a:hover {
+    color:rgb(252, 84, 0);
+    font-size: larger;
 }
